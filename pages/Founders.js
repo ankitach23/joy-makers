@@ -69,9 +69,9 @@ export default function Founders() {
 
     <div className="bg-white">
       <div><Navbar /></div>
-      <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-7xl py-10 px-4 sm:px-6 lg:px-8 ">
         <div className="space-y-12">
-          <h2 className="text-3xl font-bold tracking-tight text-my-pink sm:text-4xl">Meet our Founders</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-my-green sm:text-5xl pb-6 ">Meet our Founders</h2>
 
           <ul
             role="list"
@@ -85,12 +85,12 @@ export default function Founders() {
                   </div>
                   <div className="sm:col-span-2">
                     <div className="space-y-4">
-                      <div className="space-y-1 text-lg font-medium leading-6">
+                      <div className="space-y-1 text-my-blue text-lg font-medium leading-6">
                         <h3>{person.name}</h3>
                         <p className="text-my-pink">{person.role}</p>
                       </div>
-                      <div className="text-lg">
-                        <p className="text-gray-500">{person.bio}</p>
+                      <div className="text-base">
+                        <p className="text-my-blue font-light ">{person.bio}</p>
                       </div>
                     </div>
                   </div>

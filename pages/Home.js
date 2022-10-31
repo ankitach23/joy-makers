@@ -19,6 +19,7 @@ export default function Home(){
                     src="/home/home1.jpeg"
                     layout='fill'
                     objectFit="cover"
+                    alt="/"
                     
                   />
                   <div className="absolute inset-0 bg-pink-300 mix-blend-multiply" />
@@ -31,22 +32,7 @@ export default function Home(){
                   <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
                     Spreading Joy Around
                   </p>
-                  <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
-                    <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
-                      <a
-                        href="#"
-                        className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-my-pink shadow-sm hover:bg-pink-50 sm:px-8"
-                      >
-                        About Us
-                      </a>
-                      <a
-                        href="#"
-                        className="flex items-center justify-center rounded-md border border-transparent bg-white  px-4 py-3 text-base font-medium text-my-pink  hover:bg-pink-50 shadow-sm  sm:px-8"
-                      >
-                        Work
-                      </a>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>

@@ -8,7 +8,7 @@ export default function Concerns() {
     return (
         <div>
             <div>
-                <p className=" my-10 text-6xl text-my-pink text-center font-bold">Our Concerns</p>
+                <p className=" my-10 text-6xl text-my-green text-center font-bold">Our Concerns</p>
             </div>
             <div className="grid grid-cols-2 gap-4 ml-14 md:grid-cols-4 md:gap-8 lg:grid-cols-8 lg:gap-x-36 lg:ml-28 ">
                 <div>
