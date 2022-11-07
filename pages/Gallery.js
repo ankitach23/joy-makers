@@ -23,7 +23,7 @@ const Gallery = () => {
     <div>
         <Navbar/>
         <h1 className="text-center text-5xl py-4 font-semibold text-my-blue  ">Our Projects Gallery</h1>
-        <ul className="   my-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-14  gap-y-4 mx-14  px-4 sm:px-6">
+        <ul className="   my-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-14  gap-y-4   px-4 sm:px-6 container mx-auto">
             <li className="hover:cursor-pointer hover:text-my-green   bg-my-green border border-white rounded-md hover:bg-white hover:border-my-green text-white text-center  py-1  " onClick={()=>{filterItem("All")}}>All</li>
             <li className="hover:cursor-pointer hover:text-my-green   bg-my-green border border-white rounded-md hover:bg-white hover:border-my-green text-white text-center  py-1 " onClick={()=>{filterItem("15Aug")}}>15 August</li>
             <li className="hover:cursor-pointer hover:text-my-green   bg-my-green border border-white rounded-md hover:bg-white hover:border-my-green text-white text-center  py-1 " onClick={()=>{filterItem("Anganbadi")}}>Anganbadi</li>
@@ -43,7 +43,7 @@ const Gallery = () => {
 
         </ul>
         
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 mx-10 md:ml-14  ">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3  justify-center container mx-auto  ">
             {items.map((data)=>{
                 
                 return  <Pictures src={data.src} key={data.id}/>

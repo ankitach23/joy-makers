@@ -6,7 +6,7 @@ import{MdCleanHands} from "react-icons/md"
 import{FaHandRock,FaHandHoldingMedical} from "react-icons/fa"
 export default function Concerns() {
     return (
-        <div>
+        <div className="container mx-auto">
             <div>
                 <p className=" my-10 text-6xl text-my-green text-center font-bold">Our Concerns</p>
             </div>

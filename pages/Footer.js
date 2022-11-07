@@ -61,7 +61,7 @@ const navigation = {
           Footer
         </h2>
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 ">
-          <div className="xl:grid xl:grid-cols-3 xl:">
+          <div className="xl:grid xl:grid-cols-3 ">
             <div className="space-y-8 xl:col-span-1">
               <img
                 className="h-24"
@@ -80,8 +80,8 @@ const navigation = {
                 ))}
               </div>
             </div>
-            <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0 xl:space-x-20">
-              <div className="md:grid md:grid-cols-2 md:gap-8 xl:gap-16">
+            <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0 xl:space-x-20 ">
+              <div className="md:grid md:grid-cols-2 md:gap-8 xl:gap-16 ">
                 <div>
                   <h3 className="text-base font-medium text-gray-900">Quick Links</h3>
                   <ul role="list" className="mt-4 space-y-4">

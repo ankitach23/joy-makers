@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function AboutUs() {
   return (
-    <div>
+    <div className="container mx-auto">
       <h1 className="text-center text-my-green  font-semibold text-2xl    md:font-bold md:text-6xl my-16  ">
         About Us
       </h1>

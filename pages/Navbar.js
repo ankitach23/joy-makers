@@ -51,12 +51,12 @@ export default function Navbar() {
                             </div>
                             <div className="hidden md:absolute md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end">
                                 <span className="inline-flex rounded-md shadow">
-                                    <a
-                                        href="#"
-                                        className="inline-flex items-center rounded-md border border-transparent bg-my-pink px-4 py-2 text-base font-medium text-white hover:bg-white hover:text-my-pink"
+                                    <Link
+                                        href="Donateus"
                                     >
-                                        Donate Now
-                                    </a>
+                                    <button className="inline-flex items-center rounded-md border border-transparent bg-my-pink px-4 py-2 text-base font-medium text-white hover:bg-white hover:text-my-pink">  Donate Now</button>
+                                      
+                                    </Link>
                                 </span>
                             </div>
                         </nav>
@@ -107,12 +107,12 @@ export default function Navbar() {
                                         </Link>
                                     ))}
                                 </div>
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/Donateus"
                                     className="block w-full bg-my-pink px-5 py-3 text-center font-medium text-white hover:bg-white hover:text-my-pink"
                                 >
                                     Donate Now
-                                </a>
+                                </Link>
                             </div>
                         </Popover.Panel>
                     </Transition>
