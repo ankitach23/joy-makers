@@ -2,6 +2,7 @@ import Footer from "./Footer"
 import Navbar from "./Navbar"
 import images from "../Constant/images.json"
 import Image from "next/image"
+
 import Pictures from "../Components/Pictures"
 import { useState } from "react"
 

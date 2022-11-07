@@ -1,9 +1,8 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Image from "next/image"
+import { Bars3Icon,XMarkIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image'
 import Link from 'next/link'
-
 const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Work', href: '/Work' },
