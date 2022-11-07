@@ -2,13 +2,14 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from "next/image"
+import Link from 'next/link'
 
 const navigation = [
-    { name: 'Home', href: '#' },
-    { name: 'Work', href: '#' },
-    { name: 'Gallery', href: '#' },
-    { name: 'Founders', href: '#' },
-    {name:'Contact Us',href:'#'},
+    { name: 'Home', href: '/' },
+    { name: 'Work', href: '/Work' },
+    { name: 'Gallery', href: '/Gallery' },
+    { name: 'Founders', href: '/Founders' },
+    {name:'Contact Us',href:'/ContactUs'},
 ]
 
 export default function Navbar() {
@@ -50,12 +51,12 @@ export default function Navbar() {
                             </div>
                             <div className="hidden md:absolute md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end">
                                 <span className="inline-flex rounded-md shadow">
-                                    <a
-                                        href="#"
-                                        className="inline-flex items-center rounded-md border border-transparent bg-my-pink px-4 py-2 text-base font-medium text-white hover:bg-white hover:text-my-pink"
+                                    <Link
+                                        href="Donateus"
                                     >
-                                        Donate Now
-                                    </a>
+                                    <button className="inline-flex items-center rounded-md border border-transparent bg-my-pink px-4 py-2 text-base font-medium text-white hover:bg-white hover:text-my-pink">  Donate Now</button>
+                                      
+                                    </Link>
                                 </span>
                             </div>
                         </nav>
@@ -95,21 +96,23 @@ export default function Navbar() {
                                 </div>
                                 <div className="px-2 pt-2 pb-3">
                                     {navigation.map((item) => (
-                                        <a
+                                        <Link 
+                                        
                                             key={item.name}
                                             href={item.href}
                                             className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-                                        >
-                                            {item.name}
-                                        </a>
+                                        
+                                            >{item.name}
+                                        
+                                        </Link>
                                     ))}
                                 </div>
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/Donateus"
                                     className="block w-full bg-my-pink px-5 py-3 text-center font-medium text-white hover:bg-white hover:text-my-pink"
                                 >
                                     Donate Now
-                                </a>
+                                </Link>
                             </div>
                         </Popover.Panel>
                     </Transition>
