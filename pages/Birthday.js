@@ -1,24 +1,21 @@
 import Image from "next/image"
-export default function Birthday(){
-    return(
-        <div className="">
-           <h1 className="text-2xl text-center text-my-pink font-bold mt-10 md:text-6xl">Birthday Special</h1>
-            <div className=" text-xl text-center text-blue-900 mt-5 md:text-3xl">
+export default function Birthday() {
+    return (
+        <div className="bg-light-pink container mx-auto    px-4  md:px-10  py-6 rounded-lg md:rounded-3xl mt-10">
+
+            <h1 className="text-2xl text-center text-my-green font-bold  md:text-6xl">Birthday Special</h1>
+            <div className=" text-xl text-center text-my-blue mt-5 md:text-3xl">
                 Make Your Special Day More Special by celebrating and spreading Joy with us
             </div>
-            <div className=" flex space-x-10 ml-10 mt-6">
-                <Image src="/home/birthday.webp" objectFit="contain" alt="bday-pic" width={700} height={400}/>
-                <div className="text-right max-w-lg text-2xl" >CompleComplete suite of domains to choose what suits you the best. Find
-                        the best educational opportunities for your favorite area of
-                        interest with our revolutionary AI.
-                        Complete suite of domains to choose what suits you the best. Find
-                        the best educational opportunities for your favorite area of
-                        interest with our revolutionary AI.Complete suite of domains to choose what suits you the best. Find
-                        the best educational opportunities for your favorite area of
-                        interest with our revolutionte suite of domains to choose what suits you the best. Find
-                        the best educational opportunities for your favorite area of
-                        inter</div>
+            <div className="md:flex md:justify-between">
+                <div className="">
+                    <Image  src="/home/birthday.webp" objectFit="contain" alt="bday-pic" width={400} height={400} />
+                </div>
+                <div className="max-w-lg my-auto  md:mr-32 md:text-lg font-light py-6  md:py-0 ">
+                    <p>Toa Payoh MRT station is an underground Mass Rapid Transit (MRT) station on the North South line (NSL) in Toa Payoh, Singapore. The station is underneath the intersection of three roads: Lorong 1 Toa Payoh, Lorong 2 Toa Payoh and Lorong 6 Toa Payoh. Located within the town centre.</p>
+                </div>
+
             </div>
         </div>
-    )
+            )
 }
